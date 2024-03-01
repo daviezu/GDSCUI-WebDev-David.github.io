@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <table id="todo-table">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Category</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Rows will be dynamically added here -->
+        </tbody>
+      </table>
+      <button id="new-button">New</button>
+      <table id="archive-table">
+        <h2>Archive Tasks</h2>
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Category</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Archived tasks  -->
+        </tbody>
+      </table>
+      <h2>Filtered tasks</h2>
+      <div class="filter-input-container">
+        <input id="filter-input" type="text" placeholder="Add an input"></input>
+        <button id="filter-button">Filter task</button>
+      </div>
+    <table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
